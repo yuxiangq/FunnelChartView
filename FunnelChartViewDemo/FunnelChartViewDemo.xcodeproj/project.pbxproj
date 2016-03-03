@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8921596F1C85E3450028A102 /* FunnelChartValueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8921596E1C85E3450028A102 /* FunnelChartValueObject.m */; };
+		894415B11C847BCC007DB2F9 /* FunnelChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 894415B01C847BCC007DB2F9 /* FunnelChartModel.m */; };
+		897FF5531C82E68A00B0E69D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 897FF5521C82E68A00B0E69D /* main.m */; };
+		897FF5561C82E68A00B0E69D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897FF5551C82E68A00B0E69D /* AppDelegate.m */; };
+		897FF5591C82E68A00B0E69D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897FF5581C82E68A00B0E69D /* ViewController.m */; };
+		897FF55C1C82E68A00B0E69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897FF55A1C82E68A00B0E69D /* Main.storyboard */; };
+		897FF55E1C82E68A00B0E69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897FF55D1C82E68A00B0E69D /* Assets.xcassets */; };
+		897FF5611C82E68A00B0E69D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897FF55F1C82E68A00B0E69D /* LaunchScreen.storyboard */; };
+		897FF56B1C82EAFA00B0E69D /* FunnelChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 897FF56A1C82EAFA00B0E69D /* FunnelChartView.m */; };
+		897FF56E1C82EC1E00B0E69D /* FunnelChartSliderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 897FF56D1C82EC1E00B0E69D /* FunnelChartSliderButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8921596D1C85E3450028A102 /* FunnelChartValueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnelChartValueObject.h; sourceTree = "<group>"; };
+		8921596E1C85E3450028A102 /* FunnelChartValueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnelChartValueObject.m; sourceTree = "<group>"; };
+		892159701C873DAF0028A102 /* FunnelChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnelChart.h; sourceTree = "<group>"; };
+		894415AF1C847BCC007DB2F9 /* FunnelChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnelChartModel.h; sourceTree = "<group>"; };
+		894415B01C847BCC007DB2F9 /* FunnelChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnelChartModel.m; sourceTree = "<group>"; };
+		897FF54E1C82E68A00B0E69D /* FunnelChartViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunnelChartViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		897FF5521C82E68A00B0E69D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		897FF5541C82E68A00B0E69D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		897FF5551C82E68A00B0E69D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		897FF5571C82E68A00B0E69D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		897FF5581C82E68A00B0E69D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		897FF55B1C82E68A00B0E69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		897FF55D1C82E68A00B0E69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		897FF5601C82E68A00B0E69D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		897FF5621C82E68A00B0E69D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897FF5691C82EAFA00B0E69D /* FunnelChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnelChartView.h; sourceTree = "<group>"; };
+		897FF56A1C82EAFA00B0E69D /* FunnelChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnelChartView.m; sourceTree = "<group>"; };
+		897FF56C1C82EC1E00B0E69D /* FunnelChartSliderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnelChartSliderButton.h; sourceTree = "<group>"; };
+		897FF56D1C82EC1E00B0E69D /* FunnelChartSliderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnelChartSliderButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		897FF54B1C82E68A00B0E69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		897FF5451C82E68A00B0E69D = {
+			isa = PBXGroup;
+			children = (
+				897FF5501C82E68A00B0E69D /* FunnelChartViewDemo */,
+				897FF54F1C82E68A00B0E69D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		897FF54F1C82E68A00B0E69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				897FF54E1C82E68A00B0E69D /* FunnelChartViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		897FF5501C82E68A00B0E69D /* FunnelChartViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				897FF5681C82E93700B0E69D /* FunnelChartView */,
+				897FF5541C82E68A00B0E69D /* AppDelegate.h */,
+				897FF5551C82E68A00B0E69D /* AppDelegate.m */,
+				897FF5571C82E68A00B0E69D /* ViewController.h */,
+				897FF5581C82E68A00B0E69D /* ViewController.m */,
+				897FF55A1C82E68A00B0E69D /* Main.storyboard */,
+				897FF55D1C82E68A00B0E69D /* Assets.xcassets */,
+				897FF55F1C82E68A00B0E69D /* LaunchScreen.storyboard */,
+				897FF5621C82E68A00B0E69D /* Info.plist */,
+				897FF5511C82E68A00B0E69D /* Supporting Files */,
+			);
+			path = FunnelChartViewDemo;
+			sourceTree = "<group>";
+		};
+		897FF5511C82E68A00B0E69D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				897FF5521C82E68A00B0E69D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		897FF5681C82E93700B0E69D /* FunnelChartView */ = {
+			isa = PBXGroup;
+			children = (
+				897FF5691C82EAFA00B0E69D /* FunnelChartView.h */,
+				897FF56A1C82EAFA00B0E69D /* FunnelChartView.m */,
+				897FF56C1C82EC1E00B0E69D /* FunnelChartSliderButton.h */,
+				897FF56D1C82EC1E00B0E69D /* FunnelChartSliderButton.m */,
+				894415AF1C847BCC007DB2F9 /* FunnelChartModel.h */,
+				894415B01C847BCC007DB2F9 /* FunnelChartModel.m */,
+				8921596D1C85E3450028A102 /* FunnelChartValueObject.h */,
+				8921596E1C85E3450028A102 /* FunnelChartValueObject.m */,
+				892159701C873DAF0028A102 /* FunnelChart.h */,
+			);
+			name = FunnelChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		897FF54D1C82E68A00B0E69D /* FunnelChartViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897FF5651C82E68A00B0E69D /* Build configuration list for PBXNativeTarget "FunnelChartViewDemo" */;
+			buildPhases = (
+				897FF54A1C82E68A00B0E69D /* Sources */,
+				897FF54B1C82E68A00B0E69D /* Frameworks */,
+				897FF54C1C82E68A00B0E69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunnelChartViewDemo;
+			productName = FunnelChartViewDemo;
+			productReference = 897FF54E1C82E68A00B0E69D /* FunnelChartViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		897FF5461C82E68A00B0E69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YuxiangQ;
+				TargetAttributes = {
+					897FF54D1C82E68A00B0E69D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 897FF5491C82E68A00B0E69D /* Build configuration list for PBXProject "FunnelChartViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 897FF5451C82E68A00B0E69D;
+			productRefGroup = 897FF54F1C82E68A00B0E69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				897FF54D1C82E68A00B0E69D /* FunnelChartViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		897FF54C1C82E68A00B0E69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				897FF5611C82E68A00B0E69D /* LaunchScreen.storyboard in Resources */,
+				897FF55E1C82E68A00B0E69D /* Assets.xcassets in Resources */,
+				897FF55C1C82E68A00B0E69D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		897FF54A1C82E68A00B0E69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				894415B11C847BCC007DB2F9 /* FunnelChartModel.m in Sources */,
+				897FF5591C82E68A00B0E69D /* ViewController.m in Sources */,
+				897FF56B1C82EAFA00B0E69D /* FunnelChartView.m in Sources */,
+				897FF5561C82E68A00B0E69D /* AppDelegate.m in Sources */,
+				897FF56E1C82EC1E00B0E69D /* FunnelChartSliderButton.m in Sources */,
+				8921596F1C85E3450028A102 /* FunnelChartValueObject.m in Sources */,
+				897FF5531C82E68A00B0E69D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		897FF55A1C82E68A00B0E69D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897FF55B1C82E68A00B0E69D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		897FF55F1C82E68A00B0E69D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				897FF5601C82E68A00B0E69D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		897FF5631C82E68A00B0E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		897FF5641C82E68A00B0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		897FF5661C82E68A00B0E69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunnelChartViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QYX.FunnelChartViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		897FF5671C82E68A00B0E69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FunnelChartViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QYX.FunnelChartViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		897FF5491C82E68A00B0E69D /* Build configuration list for PBXProject "FunnelChartViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897FF5631C82E68A00B0E69D /* Debug */,
+				897FF5641C82E68A00B0E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897FF5651C82E68A00B0E69D /* Build configuration list for PBXNativeTarget "FunnelChartViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897FF5661C82E68A00B0E69D /* Debug */,
+				897FF5671C82E68A00B0E69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 897FF5461C82E68A00B0E69D /* Project object */;
+}
