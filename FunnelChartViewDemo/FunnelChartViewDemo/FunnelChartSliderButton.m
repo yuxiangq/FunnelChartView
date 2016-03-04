@@ -8,16 +8,17 @@
 
 #import "FunnelChartSliderButton.h"
 
+static const CGFloat kWidth = 40.f;
 @implementation FunnelChartSliderButton
 
 - (void)drawRect:(CGRect)rect {
     CGFloat width = CGRectGetWidth(rect);
     CGFloat height = CGRectGetHeight(rect);
     
-    CGPoint pA = {width - 50.f, 0};
+    CGPoint pA = {width - kWidth, 0};
     CGPoint pB = {width, 0};
     CGPoint pC = {width, height};
-    CGPoint pD = {width - 50.f, height};
+    CGPoint pD = {width - kWidth, height};
     
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextBeginPath(context);
@@ -25,11 +26,11 @@
     CGContextAddLineToPoint(context,pB.x, pB.y);
     CGContextAddLineToPoint(context,pC.x, pC.y);
     CGContextAddLineToPoint(context,pD.x, pD.y);
-        //设置填充色
+    //设置填充色
     [[UIColor orangeColor] setFill];
-        //设置边框颜色
+    //设置边框颜色
     [[UIColor orangeColor] setStroke];
-        //绘制路径
+    //绘制路径
     CGContextDrawPath(context,kCGPathFillStroke);
     
     //画直线

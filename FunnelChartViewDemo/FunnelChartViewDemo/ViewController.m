@@ -47,7 +47,7 @@
                                                                  CGRectGetHeight(self.view.frame) - 64.f)
                                                         funnelChartModelArray:data];
     funnelChartView.didSelectedIndexFunnelChartBlock = ^(NSUInteger index){
-        NSLog(@"%@",@(index));
+        NSLog(@"selected index %@",@(index));
     };
     [self.view addSubview:funnelChartView];
 }
